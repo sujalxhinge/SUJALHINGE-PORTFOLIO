@@ -6,8 +6,47 @@
     <title>PORTFOLIO-SUJAL HINGE</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: radial-gradient(circle at center, #1a1a1a, #000000);
+            color: #fff;
+            font-family: 'Lucida Sans', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .message {
+            font-size: 2.5rem;
+            background: linear-gradient(90deg, #ff4e50, #f9d423);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: glow 2s ease-in-out infinite;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 5px #ff4e50, 0 0 10px #f9d423;
+            }
+            50% {
+                text-shadow: 0 0 20px #ff4e50, 0 0 30px #f9d423;
+            }
+            100% {
+                text-shadow: 0 0 5px #ff4e50, 0 0 10px #f9d423;
+            }
+        }
+    </style>
 </head>
 <body>
-    <marquee style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: crimson;"><h1>Website Is In Under Development  (Oops Maintainance Time).....</h1></marquee>
+    <div class="message">
+        I'm crafting something amazing. My portfolio is on the way.
+    </div>
 </body>
 </html>
