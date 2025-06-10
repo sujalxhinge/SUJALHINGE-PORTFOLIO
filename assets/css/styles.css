@@ -13,6 +13,7 @@
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
+  --big-font-sizee: 1.5rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
   --smaller-font-size: 0.75rem;
@@ -192,7 +193,7 @@ img {
   align-self: center;
 }
 .home__title {
-  font-size: var(--big-font-size);
+  font-size: var(--big-font-sizee);
   margin-bottom: var(--mb-5);
 }
 .home__title-color {
